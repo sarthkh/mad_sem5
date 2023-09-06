@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Experiment 4</string>
+    <string name="st1">Welcome to</string>
+    <string name="st2">Mobile App Development</string>
+    <string name="st3">Android Programming</string>
+    <string name="st4">Semester V 2023</string>
+    <string name="buttonText">Proceed</string>
+    <string name="buttonText2">Back</string>
+    <string name="text">Press anywhere to continue</string>
+</resources>
