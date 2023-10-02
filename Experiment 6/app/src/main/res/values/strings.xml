@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MAD_Exp-6</string>
+    <string name="title">Camera Application</string>
+    <string name="button1">Photo</string>
+    <string name="button2">Video</string>
+    <string name="subtitle1">Photo Mode</string>
+    <string name="subtitle2">Video Mode</string>
+    <string name="button3">Open Camera</string>
+    <string name="button4">Go Back</string>
+</resources>

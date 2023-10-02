@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exp 5</string>
+    <string name="website_name">Google</string>
+    <string name="website_desc">Google is a U.S.-based global tech firm, known primarily for its search engine. It also offers a wide array of services, such as online advertising technologies, cloud computing, and hardware along with popular products like Gmail, Google Docs, Google Maps, Google Chrome, Android OS, and YouTube. Google also actively pursues advancements in artificial intelligence and machine learning.</string>
+    <string name="buttonText">Continue</string>
+    <string name="webView">Google WebView</string>
+    <string name="buttonText1">Back</string>
+</resources>
