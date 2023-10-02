@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.timepicker.MaterialTimePicker;
 import com.google.android.material.timepicker.TimeFormat;
@@ -57,9 +58,13 @@ public class Time_Picker extends AppCompatActivity {
         });
 
         confirm.setOnClickListener(v -> {
-            Intent confirmIntent = new Intent(Time_Picker.this, Confirm_Time.class);
-            confirmIntent.putExtra("time", setTime);
-            startActivity(confirmIntent);
+            if (setTime == null || setTime.isEmpty()) {
+                Toast.makeText(Time_Picker.this, "Please select a time", Toast.LENGTH_SHORT).show();
+            } else {
+                Intent confirmIntent = new Intent(Time_Picker.this, Confirm_Time.class);
+                confirmIntent.putExtra("time", setTime);
+                startActivity(confirmIntent);
+            }
         });
     }
 }

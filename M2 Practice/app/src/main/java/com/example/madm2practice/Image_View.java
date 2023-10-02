@@ -15,7 +15,7 @@ public class Image_View extends AppCompatActivity {
 
     ImageView imageView;
     Button back, open;
-    int REQUEST_CODE;
+    int REQUEST_CODE = 123;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.datepicker.MaterialDatePicker;
 
@@ -49,9 +50,13 @@ public class Date_Picker extends AppCompatActivity {
         });
 
         confirm.setOnClickListener(v -> {
-            Intent confirmIntent = new Intent(Date_Picker.this, Confirm_Date.class);
-            confirmIntent.putExtra("date", setDate);
-            startActivity(confirmIntent);
+            if (setDate == null || setDate.isEmpty()) {
+                Toast.makeText(Date_Picker.this, "Please select a date", Toast.LENGTH_SHORT).show();
+            } else {
+                Intent confirmIntent = new Intent(Date_Picker.this, Confirm_Date.class);
+                confirmIntent.putExtra("date", setDate);
+                startActivity(confirmIntent);
+            }
         });
     }
 }
