@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MAD M2 Practice</string>
+    <string name="main_page_text">Following are the list of options you can explore -</string>
+    <string name="web_view_title">Web View</string>
+    <string name="image_view_title">Image View</string>
+    <string name="video_view_title">Video View</string>
+    <string name="date_picker_title">Date Picker</string>
+    <string name="time_picker_title">Time Picker</string>
+    <string name="confirm_date_title">Confirm Date</string>
+    <string name="confirm_time_title">Confirm Time</string>
+    <string name="back_button">Back</string>
+    <string name="open_button">Open</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="change_button">Change</string>
+    <string name="select_date">Select a Date</string>
+    <string name="select_time">Select a Time</string>
+    <string name="no_date_selected">No Date Selected</string>
+    <string name="no_time_selected">No Time Selected</string>
+</resources>

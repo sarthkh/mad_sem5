@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MADM2Practice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="Theme.MADM2Practice" parent="Base.Theme.MADM2Practice" />
+
+    <style name="title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="italicText">
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
